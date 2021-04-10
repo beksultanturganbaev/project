@@ -1,23 +1,22 @@
 "use strict";
 
-console.log('arr' + "- object");
-console.log(4 +  +"5");
+const str = 'text';
 
+console.log(str.toUpperCase());
+console.log(str);
 
-let incr = 10,
-    decr = 10;
+const fruit = "Some fruit";
 
-//++incr;
-//--decr;
+console.log(fruit.indexOf("q"));
 
-console.log(++incr);
-console.log(--decr);
+const logg = "Hello world";
 
-console.log(5%2);
+//console.log(logg.slice(6, 11));
 
-console.log(2 + 2 * 2 != 8);
+//console.log(logg.substring(6, 11));
 
-const isChecked = false,
-      isClose = false;
-      
-console.log(isChecked || !isClose);
+console.log(logg.substr(6, 5));
+
+const num = 12.2;
+
+console.log(Math.raund(num));
